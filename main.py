@@ -11,7 +11,7 @@ progress = int(today.day / n_days * 100)
 
 p = ""
 p += "["
-for i in range(1, 20):
+for i in range(1, 21):
 	if progress / 5 < i:
 		p += "□"
 	else:
